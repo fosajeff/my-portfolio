@@ -299,6 +299,25 @@ button {
 
 /* other specific styles */
 
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.54);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
 .icon-color {
   color: #03afff;
 }
